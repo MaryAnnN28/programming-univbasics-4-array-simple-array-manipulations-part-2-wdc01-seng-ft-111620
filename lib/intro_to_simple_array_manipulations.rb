@@ -22,6 +22,6 @@ end
 def using_delete(array, string)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   instructors.uniq!
-  instructors.delete_if{|instructors| instructors=="Steven" } 
+  instructors.delete_if{|instructors| instructors=="Steven" }
   instructors
 end
