@@ -23,5 +23,3 @@ def using_delete(array, string)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   instructors.delete_if {|instructor| instructor == "Steven"}
 end
-  instructors
-end
