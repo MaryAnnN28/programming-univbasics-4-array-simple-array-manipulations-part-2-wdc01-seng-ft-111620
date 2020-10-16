@@ -24,5 +24,5 @@ def using_delete(array, string)
   no_offense_steven = []
 
   new_instructors = instructors.delete("Steven")
-  new_instructors =
+  new_instructors
 end
