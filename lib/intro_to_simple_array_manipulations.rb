@@ -19,10 +19,9 @@ def using_flatten(instruments)
   instruments.flatten!
 end
 
-def using_delete(array, string)
-  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  no_offense_steven = []
+instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+
+def using_delete(instructors, x = "Steven")
   instructors.delete("Steven")
-end
   instructors
 end
