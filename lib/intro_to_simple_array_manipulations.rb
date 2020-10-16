@@ -24,3 +24,5 @@ def using_delete(array, string)
   instructors.uniq
   instructors.delete("Steven")
 end
+
+instructors
